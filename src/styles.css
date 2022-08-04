@@ -1,6 +1,17 @@
-*{
-  background-color: red;
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1vh;
+  text-align: center;
 }
-.xx{
-  background-color: blue;
+
+.image{
+  border: solid red 5px;
+  height: 30vh;
+  width: 30vh;
+}
+
+.card{
+  padding: 1vh;
+  border: solid black 5px;
 }
