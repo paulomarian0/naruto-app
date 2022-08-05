@@ -1,3 +1,7 @@
+body{
+  background-image: linear-gradient(to left, #fbcd02, #de3013);
+  font-weight: bold;
+}
 .row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -6,12 +10,27 @@
 }
 
 .image{
-  border: solid red 5px;
+  border: solid black 5px;
+  border-radius: 15px;
   height: 30vh;
   width: 30vh;
 }
-
-.card{
+.box{
   padding: 1vh;
-  border: solid black 5px;
+  border: solid #001937 5px;
+  margin: 0.5vh;
+}
+
+#name{
+  font-weight: bold;
+  font-size: 3vh;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+p{
+  font-size: 2vh;
+  color: #001937;
+}
+#name:hover {
+  color: red;
 }
